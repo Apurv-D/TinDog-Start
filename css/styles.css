@@ -129,3 +129,47 @@ h3{
 .pricing-col{
     padding: 3% 2%;
 }
+
+
+/* cta  */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-h3{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 5rem;
+    margin: 5%;
+}
+.cta-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* footer  */
+
+#footer{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+.footer-socialmedia{
+    margin: 2% 1%;
+}
+
+@media (max-width:1050px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position:static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+}
